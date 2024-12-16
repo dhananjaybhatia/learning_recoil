@@ -1,0 +1,18 @@
+Recoil State Management with React and Backend Integration
+
+Overview
+
+This project demonstrates how to use Recoil for state management in a React application. Recoil simplifies state management by introducing atoms (shared state) and selectors (derived state), enabling efficient and reactive UI updates.
+
+In this setup:
+
+We manage different pieces of application state like network, jobs, messaging, and notifications using Recoil atoms.
+A Recoil selector computes the total value by aggregating multiple atom states.
+Additionally, the data for atoms in atom2.js comes from a backend API, making the state dynamic and real-world relevant.
+
+Technologies Used
+
+React: Frontend library for building UI components.
+Recoil: State management for React applications.
+Axios: For making HTTP requests to fetch data from the backend.
+Node.js: Backend API for dynamic state values (mocked).
